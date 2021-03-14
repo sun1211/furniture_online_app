@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:furniture_online_app/models/furniture.dart';
+import 'package:furniture_online_app/screen/detail_screen/detail_screen.dart';
 import 'package:furniture_online_app/screen/home/components/furniture_card.dart';
 import 'package:furniture_online_app/screen/home/components/header_menu.dart';
 
@@ -24,7 +25,16 @@ class Body extends StatelessWidget {
                 furnitureList.length,
                 (index) => FurnitureCard(
                       furniture: furnitureList[index],
-                      press: () {},
+                      press: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => DetailScreen(
+                              furniture: furnitureList[index],
+                            ),
+                          ),
+                        );
+                      },
                     )),
           ),
         ],

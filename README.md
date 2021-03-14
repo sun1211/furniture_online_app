@@ -30,5 +30,6 @@ flutter run -d chrome
 ```
 
 ## Screen Shot
-![](https://raw.githubusercontent.com/sun1211/furniture_online_app/master/screenShot/Screenshot_1615044622.png)
+![](https://raw.githubusercontent.com/sun1211/furniture_online_app/master/screenShot/Screenshot_1615736424.png)
+![](https://raw.githubusercontent.com/sun1211/furniture_online_app/master/screenShot/Screenshot_1615737639.png)
 
